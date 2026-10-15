@@ -1,0 +1,8 @@
+python --version
+python -m venv myvenv
+myvenv\Scripts\activate
+python --version
+python -m pip install ipykernel
+deactivate
+
+NOTE: This command works on command prompt(CMD) if you run this on powersheel the it throws an error
